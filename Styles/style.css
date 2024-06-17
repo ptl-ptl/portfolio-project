@@ -1,6 +1,6 @@
 :root {
-  --heading-bg-color: #f9f7fe;
-  --branding-color: #6c63ff;
+  --heading-bg-color: #f2ece7;
+  --branding-color: #d5995b;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #212b0f;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -35,6 +35,7 @@ p {
   background-color: var(--heading-bg-color);
   text-align: center;
   padding: 160px 20px;
+  box-shadow: 5px 8px 13px 3px rgba(0, 0, 0, 0.1);
 }
 
 .hero p {
@@ -87,6 +88,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.nav-bg-purple {
+  background-color: #475d21 !important;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
