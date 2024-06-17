@@ -136,6 +136,10 @@ p {
   margin-top: 200px;
 }
 
+.work-section-project-link:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
