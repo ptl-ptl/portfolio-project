@@ -132,6 +132,10 @@ p {
   font-family: var(--default-font-family);
 }
 
+.work-section {
+  margin-top: 200px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
