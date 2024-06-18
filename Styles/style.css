@@ -173,6 +173,14 @@ footer {
   transition: all 100ms ease-in-out;
 }
 
+footer .open-sourced {
+  color: #212b0f;
+}
+
+footer .open-sourced:hover {
+  color: #475d21;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
