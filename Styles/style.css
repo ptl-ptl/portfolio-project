@@ -77,7 +77,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.email-link {
+.contact-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
@@ -85,7 +85,7 @@ p {
   text-decoration: none;
 }
 
-.email-link:hover {
+.contact-link:hover {
   text-decoration: underline;
 }
 
@@ -138,6 +138,10 @@ p {
 
 .work-section-project-link:hover {
   opacity: 0.7;
+}
+
+.contact-page-content {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
